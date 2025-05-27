@@ -1,0 +1,209 @@
+* { 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}   
+
+body {
+    /*width: 1900;*/
+    /*height: 1983;*/
+    /*top: -930px;
+    left: -708px;*/
+    padding-bottom: 64px;
+    background: rgba(161, 0, 0, 0.3);
+    font-family: "Open Sans", san-serif;
+}   
+
+img {
+    width: 1280px;
+    height: 500px;
+    max-width: 1280px;
+    min-height: 500px;
+    border-width: 1px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.container {
+    width: 1280px;
+    height: 1419px;
+    max-width: 1280px;
+    padding: 64px;
+    gap: 32px;
+    display: grid;
+    margin: auto;
+    background-color: #fff;
+}
+
+.container h1 {
+    width: 1152px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    /*letter-spacing: 0%;*/
+    margin-bottom: -25px;
+    color: #A10000;
+}
+
+.container p {
+    height: 75px;
+    font-weight: 400;
+    font-size: 24px;
+    /*line-height: 100%;*/
+    /*letter-spacing: 0%;*/
+    margin: 20px 0px -15px 0px;
+    padding: 20px 30px;
+    background-color: #ebebeb;
+}
+
+.ing-ram {
+    width: 1152px;
+    /*height: 247px;*/
+    gap: 11px;
+    margin-bottom: -10px;
+    display: grid;
+}
+
+.ing-ram h2 {
+    width: 1152px;
+    /*height: 44px;*/
+    gap: 16px;
+    margin-bottom: -5px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.ing-ram span {
+    font-weight: 400;
+    /*font-size: 32px;*/
+}
+
+.ing-ram ul {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: Headline Small/Line Height;
+    /*letter-spacing: 0%;*/
+    margin-left: 45px;
+}
+
+.doit {
+    width: 1152px;
+    /*height: 250px;*/
+    gap: 14px;
+    display: grid;
+}
+
+.doit h3 {
+    width: 211px;
+    /*height: 44px;*/
+    font-weight: 700;
+    font-size: 32px;
+    /*line-height: 100%;*/
+    /*letter-spacing: 0%;*/
+}
+
+.doit ol {
+    width: 1152px;
+    /*height: 192px;*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: Headline Small/Line Height;
+    /*letter-spacing: 0%;*/
+    margin-left: 40px;
+}
+
+.serv {
+    width: 1152px;
+    /*height: 531px;*/
+    gap: 20px;
+    display: grid;
+}
+
+.serv h4 {
+    width: 278px;
+    /*height: 44px;*/
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.serv .bottom {
+    width: 1152px;
+    /*height: 467px;*/
+    gap: 24px;
+    display: flex;
+}
+
+.serv .bottom .bottomimage {
+    width: 564px;
+    /*height: 467px;*/
+    min-width: 300px;
+}
+
+
+@media screen and (max-width: 375px) {
+    body { 
+        width: 440px;
+        height: 2830px;
+        top: -930px;
+        left: 1330px;
+    }
+    
+    img { 
+        width: 440px;
+        height: 500px;
+        border-width: 1px;
+    }
+
+    .container {
+        width: 440px;
+        height: 2330px;
+        max-width: 1280px;
+        padding-top: 64px;
+        padding-right: 32px;
+        padding-bottom: 64px;
+        padding-left: 32px;
+        gap: 32px;
+    }
+
+    .container h1 {
+        width: 376px;
+    }
+
+    .container p {
+        width: 376px;
+        height: 147px;
+        margin-top: -30px;
+    }
+
+    .ing-ram {
+        margin-top: -50px;
+    }
+
+    .ing-ram span {
+        display: grid;
+    }
+
+    .ing-ram ul {
+        width: 250px;
+        margin: -25px 40px;
+    }
+
+    .doit ol {
+        width: 320px;
+        margin: -30px 30px;
+    }
+
+    .serv .bottom {
+        display: grid
+    }
+
+    .serv .bottom .bottomimage {
+        width: 376px;
+        height: 467px;
+        min-width: 300px;
+        margin: -10px 0px;
+    }
+}   
