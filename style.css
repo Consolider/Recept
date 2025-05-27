@@ -41,7 +41,6 @@ img {
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
-    /*letter-spacing: 0%;*/
     margin-bottom: -25px;
     color: #A10000;
 }
@@ -50,8 +49,6 @@ img {
     height: 75px;
     font-weight: 400;
     font-size: 24px;
-    /*line-height: 100%;*/
-    /*letter-spacing: 0%;*/
     margin: 20px 0px -15px 0px;
     padding: 20px 30px;
     background-color: #ebebeb;
@@ -83,7 +80,6 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: Headline Small/Line Height;
-    /*letter-spacing: 0%;*/
     margin-left: 45px;
 }
 
@@ -99,8 +95,6 @@ img {
     /*height: 44px;*/
     font-weight: 700;
     font-size: 32px;
-    /*line-height: 100%;*/
-    /*letter-spacing: 0%;*/
 }
 
 .doit ol {
@@ -109,7 +103,6 @@ img {
     font-weight: 400;
     font-size: 24px;
     line-height: Headline Small/Line Height;
-    /*letter-spacing: 0%;*/
     margin-left: 40px;
 }
 
