@@ -1,13 +1,28 @@
-* { 
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}   
+:root {
+    --clr-red-400: hsl(0, 100%, 52%);
+
+    --primary-color: rgba(237, 208, 17, 0.863);
+    --secondary-color: #ebebeb;
+    --background-color: #fff;
+    --text-color: #000;
+
+    --ff: "Open Sans", sans-serif;
+
+    --fs-header-responsive: clamp(1.5rem, 8vw + 1rem, 2.5rem);
+    --fs-header-medium: 1.75rem;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+
+    --max-width: 1280px;
+
+    --margin-large: 4rem;
+}
 
 body {
     padding-bottom: 64px;
-    background: rgba(161, 0, 0, 0.3);
-    font-family: "Open Sans", san-serif;
+    background-color: var(--primary-color);
+    font-family: var(--ff);
 }   
 
 img {
@@ -22,14 +37,15 @@ img {
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #A10000;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-header-responsive);
+    /* color: #A10000; */
+    color: var(--clr-red-400);
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-header-medium);
     margin-bottom: 5px;
 }
 
@@ -40,7 +56,7 @@ h2 {
     padding: 64px;
     gap: 32px;
     margin: auto;
-    background-color: #fff;
+    background-color: var(--background-color);
 }
 
 .content p {
@@ -50,7 +66,7 @@ h2 {
     font-size: 24px;
     margin: 20px 0px 20px 0px;
     padding: 20px 30px;
-    background-color: #ebebeb;
+    background-color: var(--secondary-color)
 }
 
 .ingredienser span {
