@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Receptsida för pannkakor.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -15,11 +16,13 @@
 </head>
 
 <body>
-    <img src="img/img1.jpg" alt="pannkaka-1">
-    <div class="container">
+    <img src="img/img1.jpg" srcset="img/pannkakor-small.jpg 480w, img/pannkakor-large.jpg 1080w" sizes="50vw" alt="Bild på pannkakor med grädde och hallon.">
+
+    <main>
+    <article class="content">
         <h1>Enkelt recept på pannkakor</h1>
         <p>Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.</p>
-    <div class="ing-ram">
+    <section class="ingredienser" tabindex="0">
         <h2>Ingredienser <span>(4 port)</span></h2>
             <ul>
                 <li>2 1/2 dl vetemjöl</li>
@@ -29,9 +32,9 @@
                 <li>smör (till stekning)</li>
                 <li>sylt, bär eller frukt till servering</li>
             </ul>
-    </div>
-    <div class="doit">
-        <h3>Så här gör du</h3>
+    </section>
+    <section class="instruktioner" tabindex="0">
+        <h2>Så här gör du</h2>
             <ol>
                 <li>Blanda mjöl och salt i en bunke.</li>
                 <li>Vispa i hälften av mjölken och vispa till en slät smet.</li>
@@ -40,13 +43,18 @@
                 <li>Stek tunna pannkakor i lite smör, för varje pannkaka, i en stek- eller pannkakspanna.</li>
                 <li>Servera med sylt, bär eller frukt.</li>
             </ol>
-    </div>
-    <div class="serv">
-        <h4>Serveringsförslag</h4>
-        <div class="bottom">
-            <img class="bottomimage" src="img/img2.jpg" alt="pannkaka-2">
-            <img class="bottomimage" src="img/img3.jpg" alt="pannkaka-3">
-        </div>
-    </div>
-    </div>
+    </section>
+    <section class="servering">
+        <h2>Serveringsförslag</h2>
+        <figure>
+            <picture class="bottom-container">
+                <img class="bottomimage" src="img/img2.jpg" alt="En tallrik med flera nylagade pannkakor.">
+                <img class="bottomimage" src="img/img3.jpg" alt="Tallrikar med vikta pannkakor som har grädde och en apelsinskiva på sig.">
+            </picture>
+        </figure>
+    </section>
+    </article>
+    </main>
+    
+
 </body>
